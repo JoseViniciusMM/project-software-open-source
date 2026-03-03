@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.limite {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    background-image: url("/assets/images/background.jpeg");
+    padding: 72px 0;
+    background-size: cover;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+}
+
+.cabecalho h1 {
+    background-color: aquamarine;
+    display: inline;
+    padding: 8px;
+}
+.rodape-texto {
+    background-color: #202124;
+    color: #F1F1F1;
+}
+
+.rodape-logos {
+    background-color: #38393F;
+    padding: 8px;
+}
+
+.background-azul {background-color: #B6D5FF;}
+.background-azul-calro {background-color: #C5F3FF;}
+.background-vermelho {background-color: #F7B7AD;}
+.background-laranja {background-color: #F6C29D;}
+.background-verde {background-color: #B6F5D5;}
+.background-amarelo {background-color: #FAE5B1;}
+
+.card {
+    max-width: 332px;
+    margin: 16px 0;
+    border: 1px solid #5F6369;
+    border-radius: 8px;
+}
+
+.card h2, .card p {
+    padding: 8px;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.card-image {
+    text-align: center;
+    padding: 24px 0;
+    border-radius: 8px 8px 0 0;
+
+}
+
+.tag {
+    border: 1px solid #5F6369;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.btn-ver-projeto {
+    border: 1px solid #5F6369;
+    border-radius: 4px;
+    padding: 4px;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #1C73E8;
+
+}
+
+.btn-ver-projeto:hover {
+    background-color: #1C73E8;
+    color: #F1F1F1;
+    border-color: #1C73E8;
+}
+
+.tag-container {
+    padding: 8px;
+}
+
+.tag:hover{
+    background-color: #d4d4d4;
+}
