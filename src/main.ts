@@ -10,8 +10,8 @@ interface Card {
 }
 
 let listaDeCards: Card[] = [
-  {titulo: "Chromium", texto: "rojeto de navegador de codigo aberto que serve de base para o Google Chrome e outro navegadores modenos.", tecnologias: ["Java", "Web", "C++"], link: "https://www.chromium.org", icone: "", cor: "#B6D5FF"},
-  {titulo: "Ubuntu", texto: "Distribuição Linux baseada em Debian, voltada para usabilidade, segurança e atualização frequente.", tecnologias: ["C", "Python", "Bash"], link: "https://www.ubunto.org", icone: "", cor: "#F6C29D"},
+  {titulo: "Chromium", texto: "Projeto de navegador de codigo aberto que serve de base para o Google Chrome e outro navegadores modenos.", tecnologias: ["Java", "Web", "C++"], link: "https://www.chromium.org", icone: "/icons/chromium.svg", cor: "#B6D5FF"},
+  {titulo: "Ubuntu", texto: "Distribuição Linux baseada em Debian, voltada para usabilidade, segurança e atualização frequente.", tecnologias: ["C", "Python", "Bash"], link: "https://www.ubunto.org", icone: "/icons/ubuntu.svg", cor: "#F6C29D"},
 ]
 
 
